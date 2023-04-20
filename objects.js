@@ -25,14 +25,14 @@ console.log(foods.grapes);
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
-foods.oranges = true
-console.log(foods.oranges);
+foods.orange = 1;
+console.log(foods.orange);
 
-
+/*
 #-------------------
 // Part 2: Email
 #-------------------
-
+*/
 
 // Think about all the pieces of information associated with one single email in your inbox.
 // It has a sender, a subject, ...
@@ -48,7 +48,7 @@ var email = {
   sendersAddress: "Dan@gmail.com",
   toAddress: "Dave@gmail.com"
 };
-
+console.log(email);
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
 console.log(Object.keys(email));
@@ -57,11 +57,11 @@ console.log(Object.keys(email));
 // you created above:
 console.log(Object.values(email));
 
-
+/*
 #-------------------
 // Part 3: Many Emails - CHALLENGE!
 #-------------------
-
+*/
 // LONG EXAMPLE:
 // Now that we've learned about Objects AND Arrays, we can combine them.
 
